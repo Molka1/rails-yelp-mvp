@@ -1,7 +1,9 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+gem 'faker'
 ruby '3.0.3'
+gem 'simple_form'
 gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
